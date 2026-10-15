@@ -17,10 +17,12 @@ def main():
         return
 
     # Calculate the volume and surface area
-    volume = (side_length**2) * height
-    surface_area = (4 * side_length * height) + (2 * (side_length**2))
+    volume = (side_length ** 2) * height
 
-    # display the answers
+    # Calculate the surface area of the square prism
+    surface_area = (4 * side_length * height) + (2 * (side_length ** 2))
+
+    # display the answers of th volume of the square prism
     print(
         "The volume of the square prism is: {volume:.2f} {unit}^3".format(
             volume=volume, unit=unit
